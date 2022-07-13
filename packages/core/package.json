@@ -1,0 +1,32 @@
+{
+  "name": "@poker-game/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jumperchuck <ck_125s@163.com>",
+  "homepage": "https://github.com/jumperchuck/poker-game#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "keywords": [
+    "poker",
+    "poker-game"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumperchuck/poker-game.git"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "yarn build -w"
+  },
+  "bugs": {
+    "url": "https://github.com/jumperchuck/poker-game/issues"
+  },
+  "dependencies": {}
+}

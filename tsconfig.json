@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "lib": ["esnext"],
+    "resolveJsonModule": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "paths": {}
+  },
+  "exclude": ["node_modules", "**/dist", "**/node_modules"]
+}
